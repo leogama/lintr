@@ -79,3 +79,5 @@ test_that("Multi-byte characters correct columns", {
     expect_equal(pc[[1L]]$col1[4L], pc[[1L]]$col1[2L] + 4L)
   })
 })
+
+# TODO test encoding-specific behaviour
